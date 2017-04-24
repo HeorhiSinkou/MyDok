@@ -3,7 +3,7 @@
 //  MyDok
 //
 //  Created by georg syncov on 21.04.17.
-//  Copyright © 2017 georg syncov. All rights reserved.
+//  Copyright © 2017 georg syncov. All rights reserved.!!!!!!!!!!!
 //
 
 import UIKit
