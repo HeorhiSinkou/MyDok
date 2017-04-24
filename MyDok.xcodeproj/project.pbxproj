@@ -15,6 +15,8 @@
 		8B817E961E9A967100F2B5F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B817E941E9A967100F2B5F4 /* LaunchScreen.storyboard */; };
 		8B817EA11E9A967100F2B5F4 /* MyDokTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B817EA01E9A967100F2B5F4 /* MyDokTests.swift */; };
 		8B817EAC1E9A967200F2B5F4 /* MyDokUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B817EAB1E9A967200F2B5F4 /* MyDokUITests.swift */; };
+		8BB0D4DB1EAA4E83007F7DE1 /* DiagnosisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB0D4DA1EAA4E83007F7DE1 /* DiagnosisViewController.swift */; };
+		8BB0D4DD1EAE33E1007F7DE1 /* validationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB0D4DC1EAE33E1007F7DE1 /* validationTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		8B817EA71E9A967200F2B5F4 /* MyDokUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyDokUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B817EAB1E9A967200F2B5F4 /* MyDokUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDokUITests.swift; sourceTree = "<group>"; };
 		8B817EAD1E9A967200F2B5F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BB0D4DA1EAA4E83007F7DE1 /* DiagnosisViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiagnosisViewController.swift; sourceTree = "<group>"; };
+		8BB0D4DC1EAE33E1007F7DE1 /* validationTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = validationTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +105,9 @@
 			children = (
 				8B817E881E9A967100F2B5F4 /* AppDelegate.swift */,
 				8B817E8A1E9A967100F2B5F4 /* ViewController.swift */,
+				8BB0D4DA1EAA4E83007F7DE1 /* DiagnosisViewController.swift */,
 				8B817E8C1E9A967100F2B5F4 /* Main.storyboard */,
+				8BB0D4DC1EAE33E1007F7DE1 /* validationTest.swift */,
 				8B817E921E9A967100F2B5F4 /* Assets.xcassets */,
 				8B817E941E9A967100F2B5F4 /* LaunchScreen.storyboard */,
 				8B817E971E9A967100F2B5F4 /* Info.plist */,
@@ -262,8 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BB0D4DB1EAA4E83007F7DE1 /* DiagnosisViewController.swift in Sources */,
 				8B817E8B1E9A967100F2B5F4 /* ViewController.swift in Sources */,
 				8B817E891E9A967100F2B5F4 /* AppDelegate.swift in Sources */,
+				8BB0D4DD1EAE33E1007F7DE1 /* validationTest.swift in Sources */,
 				8B817E911E9A967100F2B5F4 /* MyDok.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -509,6 +517,7 @@
 				8B817EB21E9A967200F2B5F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B817EB31E9A967200F2B5F4 /* Build configuration list for PBXNativeTarget "MyDokTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +526,7 @@
 				8B817EB51E9A967200F2B5F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B817EB61E9A967200F2B5F4 /* Build configuration list for PBXNativeTarget "MyDokUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +535,7 @@
 				8B817EB81E9A967200F2B5F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
