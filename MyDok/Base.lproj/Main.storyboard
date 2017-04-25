@@ -35,7 +35,7 @@
                                     <action selector="segment:" destination="BYZ-38-t0r" eventType="valueChanged" id="48D-Su-WO4"/>
                                 </connections>
                             </segmentedControl>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Логин" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ieg-EX-hae">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="e-mail" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ieg-EX-hae" userLabel="EmailL">
                                 <rect key="frame" x="0.0" y="127" width="320" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="HP0-Fs-7MP"/>
@@ -74,13 +74,6 @@
                                             <action selector="registButtonR:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7yD-Yf-Dcy"/>
                                         </connections>
                                     </button>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Логин" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uMT-mS-fC4">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <nil key="textColor"/>
-                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="20"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="E-mail" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TkJ-XG-AB4">
                                         <rect key="frame" x="0.0" y="38" width="320" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -140,9 +133,8 @@
                     <navigationItem key="navigationItem" id="FCv-LD-QmP"/>
                     <connections>
                         <outlet property="buttonL" destination="YHx-XN-Q0S" id="GLc-hM-VE7"/>
+                        <outlet property="emailL" destination="ieg-EX-hae" id="fFn-IL-ce7"/>
                         <outlet property="emailR" destination="TkJ-XG-AB4" id="rQ1-du-N1E"/>
-                        <outlet property="loginL" destination="ieg-EX-hae" id="lmj-bh-JU6"/>
-                        <outlet property="loginR" destination="uMT-mS-fC4" id="63b-3E-vN7"/>
                         <outlet property="passR" destination="mgz-93-7cQ" id="Syl-D3-V6V"/>
                         <outlet property="passwordL" destination="331-lj-I5v" id="pxC-Ov-Lac"/>
                         <outlet property="regV" destination="IBN-Yw-Pkg" id="Kdh-rw-YFU"/>
@@ -152,7 +144,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="349" y="-22"/>
+            <point key="canvasLocation" x="377" y="-450"/>
         </scene>
         <!--Diagnosis View Controller-->
         <scene sceneID="3u1-WL-HcZ">
@@ -195,7 +187,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dCx-Od-a1k" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1089.375" y="-22.183098591549296"/>
+            <point key="canvasLocation" x="1209" y="10"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="zF1-8y-EwA">
@@ -213,7 +205,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="O42-KH-9LW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-371" y="-22"/>
+            <point key="canvasLocation" x="-364" y="-450"/>
         </scene>
     </scenes>
 </document>

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B35BA201EAF6D02002FABE7 /* userTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B35BA1F1EAF6D02002FABE7 /* userTab.swift */; };
 		8B817E891E9A967100F2B5F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B817E881E9A967100F2B5F4 /* AppDelegate.swift */; };
 		8B817E8B1E9A967100F2B5F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B817E8A1E9A967100F2B5F4 /* ViewController.swift */; };
 		8B817E8E1E9A967100F2B5F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B817E8C1E9A967100F2B5F4 /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8B35BA1F1EAF6D02002FABE7 /* userTab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = userTab.swift; sourceTree = "<group>"; };
 		8B817E851E9A967100F2B5F4 /* MyDok.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyDok.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B817E881E9A967100F2B5F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B817E8A1E9A967100F2B5F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 		8B817E7C1E9A967100F2B5F4 = {
 			isa = PBXGroup;
 			children = (
+				8B35BA1F1EAF6D02002FABE7 /* userTab.swift */,
 				8B817E871E9A967100F2B5F4 /* MyDok */,
 				8B817E9F1E9A967100F2B5F4 /* MyDokTests */,
 				8B817EAA1E9A967200F2B5F4 /* MyDokUITests */,
@@ -270,6 +273,7 @@
 			files = (
 				8BB0D4DB1EAA4E83007F7DE1 /* DiagnosisViewController.swift in Sources */,
 				8B817E8B1E9A967100F2B5F4 /* ViewController.swift in Sources */,
+				8B35BA201EAF6D02002FABE7 /* userTab.swift in Sources */,
 				8B817E891E9A967100F2B5F4 /* AppDelegate.swift in Sources */,
 				8BB0D4DD1EAE33E1007F7DE1 /* validationTest.swift in Sources */,
 				8B817E911E9A967100F2B5F4 /* MyDok.xcdatamodeld in Sources */,
